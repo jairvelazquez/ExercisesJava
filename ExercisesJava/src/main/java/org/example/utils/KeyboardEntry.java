@@ -32,7 +32,6 @@ public class KeyboardEntry {
 
     public static String enterLine(String prompt) {
         System.out.print(prompt);
-        scanner.nextLine(); // Consume newline left-over
         return scanner.nextLine();
     }
 
