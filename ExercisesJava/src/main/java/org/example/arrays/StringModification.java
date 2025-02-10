@@ -14,6 +14,12 @@ public class StringModification {
 
     public static void main(String[] args){
 
+        String telefono="telefono";
+        System.out.println(telefono.length());
+        for ( int i=telefono.length()-1; i>=0; i--){
+
+            System.out.print(telefono.charAt(i));
+        }
     }
 
 }
