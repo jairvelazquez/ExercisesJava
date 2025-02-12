@@ -13,11 +13,6 @@ public class FunctionsExplanation {
 
 
 
-
-
-
-
-
     static int addOne(int number){
         number++;
         return number;
